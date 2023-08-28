@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="https://svt.movex.ai/img/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+  <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+  <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css">
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+  <link rel="stylesheet" href="../src//component/assets/fonts/flaticon/flaticon.css">
+
+
+
+  <title>Sri Venkateshwara Temple of NC</title>
+  <style>
+    .translate-element {
+        display: block;
+        float: right;
+    }
+    .element{
+      display: block;
+    }
+     
+
+</style>
+</head>
+
+<body>
+  <div id="google_translate_element"   class="translate-element" style="float: right;"></div>
+  
+  
+
+
+
+  <div id="root"></div>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+    }
+  </script>
+
+  <script type="text/javascript" src="https://svt.movex.ai/script/googletranslate.js"></script>
+
+  <script src="https://svt.movex.ai/script/messenger_bootstrap.js" style="display: block;"></script>
+
+  <script>
+    window.addEventListener('dfMessengerLoaded', function (event) {
+      const dfMessenger = document.querySelector('df-messenger');
+      const openText = `Hi! I am your personal assistant to help you with Sri Venkateshwara Temple-related queries`;
+      dfMessenger.renderCustomText(openText);
+      const payload = [
+        {
+          "title": "Sri Venkateshwara Temple of North California",
+          "subtitle": "Provide humanitarian and compassionate services to the entire community in the region through cross-cultural activities",
+          "actionLink": "https://svt.movex.ai/",
+          "type": "info"
+        },
+        {
+          "type": "chips",
+          "options": [
+            {
+              "text": "Donate Now",
+              "link": "https://svt.movex.ai/category"
+            },
+            {
+              "link": "https://svt.movex.ai/pujalist",
+              "text": "Pooja Services"
+            },
+            {
+              "text": "Signin/Signup",
+              "link": "https://svt.movex.ai/sign-in"
+            },
+            {
+              "text": "Regular Poojas",
+              "link": "https://svt.movex.ai/regularpuja"
+            }
+          ]
+        }
+      ];
+      dfMessenger.renderCustomCard(payload);
+    });
+  </script>
+
+  <df-messenger  id="data" class="element" chat-icon="https://cdn-icons-png.flaticon.com/512/1041/1041916.png"
+    agent-id="6c9abf90-3a81-42f4-994c-7712a81f679f" language-code="en"> </df-messenger>
+    <script>
+      // Check if the current page URL contains '/admin'
+      if (window.location.pathname.includes('/admin')) {
+        var translateElement = document.getElementById('google_translate_element');
+        var dfMessengerElement = document.getElementById('data');
+        translateElement.style.display = 'none';
+        dfMessengerElement.style.display = 'none';
+      }
+    </script>
+
+
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+
+
+
+
+</body>
+
+
+
+</html>

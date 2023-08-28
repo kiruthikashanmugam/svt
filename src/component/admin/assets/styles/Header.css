@@ -1,0 +1,243 @@
+.auth-wrapper-admin {
+    width: 100%;
+    height: 100%;
+}
+
+.text-color{
+    color: #167bff;
+}
+
+.auth-wrapper-admin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 50px;
+    font-weight: lighter;
+    /* background-color:antiquewhite; */
+}
+
+.auth-wrapper-admin-old {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    /* background-color:antiquewhite; */
+}
+
+.auth-wrapper-admin .form-control:focus {
+    border-color: #167bff;
+    box-shadow: none;
+}
+
+.justify-content-center-admin {
+    justify-content: right !important;
+    margin-top: 15px;
+  }
+
+  .pagination-admin {
+    margin-top: 50px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.pagination-admin .page-item {
+    margin: 0;
+}
+
+.pagination-admin .page-item:last-child .page-link,
+.pagination-admin .page-item:first-child .page-link,
+.pagination-admin .page-item .page-link {
+    border-radius: 50%;
+}
+
+#sidebar-menu-admin .sidebar-menu-dot:hover,
+#sidebar-menu-admin .sidebar-menu-dot .active {
+  height: 13px;
+  width: 13px;
+  background-color: #27A9F8;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-right: 18px;
+  display: inline-block;
+}
+
+.pagination-admin .page-link {
+  color: #7484fd;
+  border: 0;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 600;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  line-height: 1.25;
+}
+
+.page-item:not(:first-child) .page-link{
+  margin-left: 15px;
+}
+
+.pagination-admin .page-item.active .page-link {
+    background-color: #7484fd;
+    border: 1px solid #7484fd;
+}
+
+.pagination-admin .page-item:not(.active) .page-link:hover,
+.pagination-admin .page-item:not(.active) .page-link:focus {
+    color: #7484fd;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.custom-datepicker-admin {
+    width: 100%;
+  }
+  
+  .custom-datepicker-admin tr {
+    height: 10px;
+  }
+  
+  .btnnavbaradmin {
+    background: #7484fd !important;
+    /* background: #f2b263 !important; */
+    color: #fff !important;
+    border-radius: 5px !important;
+    padding: 6px 25px !important;
+    border: 2px solid #ddd !important;
+    font-size: 15px !important;
+  }
+
+  .search-input-container-admin {
+    position: relative;
+  }
+
+  .flexbox-container-admin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 5px;
+    justify-content: space-between;
+  }
+
+.form-admin {
+    background: white;
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 75%;
+    padding: 30px 50px;
+  }
+  
+
+.auth-wrapper-admin h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+    color:black;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.auth-inner-admin {
+    width: 500px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.auth-inners-admin {
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.input-containers-admin {
+    position: relative;
+}
+
+.input-containers-admin input {
+    padding-right: 40px;
+    /* leave space for the toggle button */
+}
+
+.input-containers-admin button {
+    position: absolute;
+    top: 73%;
+    right: 0px;
+    transform: translateY(-50%);
+    font-weight: normal;
+}
+
+.input-containers-admin button:hover {
+    border: none !important;
+}
+
+@media screen and (max-width: 320px) {
+    .input-containers-admin button {
+        top: 73%;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .auth-wrapper-admin h3 {
+        margin-top: 10vh;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .auth-inners-admin {
+        width: 89%;
+        margin: auto;
+        background: #ffffff;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        padding: 40px 37px 45px 36px;
+        border-radius: 15px;
+        transition: all 0.3s;
+    }
+
+    .auth-wrapper-admin h3 {
+        margin-top: 2vh;
+
+    }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .auth-inner-admin {
+        width: 316px;
+    }
+}
